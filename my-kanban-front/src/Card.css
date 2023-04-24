@@ -1,0 +1,59 @@
+.Card {
+    background: #ea9263;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1% 1%;
+    margin: 1% 1%;
+    border: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 95%;
+    min-height: 200px;
+    max-height: fit-content;
+    position: relative;
+    overflow-wrap: break-word;
+  }
+
+
+  
+.EraseBtnText{
+    background-color: rgb(235, 164, 164);
+    border: 0px;
+    border-radius: 100%;
+    color: red;
+    width: 20px; /* Define a largura do botão */
+    height: 20px; /* Define a altura do botão */
+}
+
+.EraseBtn {
+    position: relative; /* Define a posição absoluta do botão de Excluir */
+    top: 2%; /* Define a distância do topo */
+    right: 2%; /* Define a distância da direita */
+    display: flex;    
+    justify-content: right; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+  }
+  
+
+  
+.Select {
+    position: relative;
+    bottom: 0;
+    left: 4%;
+    height: 100%;
+    width: 80%;
+
+  }
+
+  .SelectMove {
+    position: relative;
+    bottom: 0;
+    left: 4%;
+    height: 100%;
+
+  }
+
+.Text {
+    padding: 1% 1% 1% 1%;
+}
+
