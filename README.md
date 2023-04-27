@@ -12,6 +12,10 @@ Este projeto foi inicializado com o [Create React App](https://github.com/facebo
 
 No diretório do projeto, você pode executar:
 
+### `npm i`
+
+Instala as dependências do React
+
 ### `npm start`
 
 Executa o aplicativo no modo de desenvolvimento.\
