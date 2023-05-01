@@ -30,7 +30,7 @@ function App() {
   }}
   
   
-  //TODO: Ver como passar uma função no useEffect
+  
   //useEffect é executado sempre que o componente é criado ou atualizado 
   useEffect(() => { 
     //busca todos os boards que existem
@@ -80,10 +80,6 @@ function App() {
         return response.json();
       })
       .then(data => setSelectedBoard(JSON.stringify(data))) //Seleciona o board recém adicionado como default
-      .then(() => {
-        //Atualiza os dados do board selecionado
-        updateSelectedBoardData();
-      })      
       .catch(error => {
         alert(error.message);
         console.log(error);
@@ -191,7 +187,6 @@ function App() {
 
     }
   //Ai ele retorna (re-renderiza) os componentes com base na quantidade de colunas e dos quadros
-  //TODO: ver certinho o que é o método map no react e arrumar o código de renderizar as colunas
   return (  
     <div>     
       <h1 class='Title'>Bem vindo ao seu portal de Gestão</h1>
